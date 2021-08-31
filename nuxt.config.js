@@ -13,7 +13,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'canonical', href: 'https://salero-tanyoe.netlify.app' }
+      { rel: 'canonical', href: 'https://salero-tanyoe.netlify.app' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Cookie&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lobster&display=swap' }
     ]
   },
 
