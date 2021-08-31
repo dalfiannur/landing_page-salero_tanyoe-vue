@@ -75,7 +75,10 @@ export default Vue.extend({
     },
     whatsapp () {
       const whatsapp = this.$store.state.contacts.find((item: any) => item.name === 'whatsapp')
-      return 'https://wa.me/' + whatsapp.value
+      if (whatsapp) {
+        return 'https://wa.me/' + whatsapp.value
+      }
+      return ''
     }
   },
   mounted () {
