@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.font-wind-song {
+  font-family: 'WindSong', cursive;
+}
+
+.font-cookie {
+  font-family: 'Cookie', cursive;
+}
+
+.font-raleway {
+  font-family: 'Raleway', 'sans-serif';
+}
+
+.font-lobster {
+  font-family: 'Lobster', cursive
+}
+
+.bg-white-o-50 {
+  background-color: rgba(255, 255, 255, .5);
+}
+.bg-white-o-80 {
+  background-color: rgba(255, 255, 255, .8);
+}
+.bg-black-o-80 {
+  background-color: rgba(0, 0, 0, .8);
+}
